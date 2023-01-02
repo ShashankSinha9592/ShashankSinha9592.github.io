@@ -411,13 +411,36 @@ img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  height: 500px;
+  position: relative;
+}
+.work_img p{
+  margin: 20px;
 }
 
+.work_img div{
+  position: absolute;
+  bottom: 10%;
+  
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  
+}
 .work_img img {
   transition: 1s;
   cursor: pointer;
   width: 100%;
-  height: 100%;
+  height: 50%;
+}
+
+.work_img a{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(47, 109, 224);
+  color: white;
+  padding: 10px;
+  border-radius: 10%;
+  
 }
 
 .work_img img:hover {

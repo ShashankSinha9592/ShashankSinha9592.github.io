@@ -26,11 +26,3 @@ function linkAction() {
 }
 
 navLink.forEach((n) => n.addEventListener("click", linkAction));
-
-document.querySelector(".workImg1").addEventListener("click", (e) => {
-  window.open("https://velvety-narwhal-7fc5cb.netlify.app/", "_blank");
-});
-
-document.querySelector(".workImg2").addEventListener("click", (e) => {
-  window.open("https://shashanksinha9592.github.io/Spotify-Clone/", "_blank");
-});
