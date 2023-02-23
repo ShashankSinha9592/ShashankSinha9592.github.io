@@ -382,15 +382,15 @@ img {
 }
 
 .skill_html {
-  width: 95%;
+  width: 75%;
 }
 
 .skill_css {
-  width: 85%;
+  width: 60%;
 }
 
 .skill_js {
-  width: 75%;
+  width: 80%;
 }
 
 .skill_ui {
@@ -404,7 +404,12 @@ img {
 }
 
 .work_container {
-  row-gap: 2rem;
+  row-gap: 1rem;
+  width: 70%;
+  margin: auto;
+
+  
+
 }
 
 .work_img {
@@ -413,6 +418,7 @@ img {
   overflow: hidden;
   height: 500px;
   position: relative;
+  
 }
 .work_img p{
   margin: 20px;
@@ -498,6 +504,21 @@ img {
 
   
 } */
+@media screen and (min-width: 1100px) {
+  .bd_grid {
+    margin: auto;
+  }
+
+  #myImg{
+    margin-top: 20px;
+  }
+
+  .home_img {
+    width: 460px;
+    bottom: 15%;
+  }
+ 
+}
 
 @media screen and (min-width: 776px) {
   /* body {
@@ -586,8 +607,9 @@ img {
 
   .work_container {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
     column-gap: 2rem;
+    width: 100%;
   }
 
   .contact_form {
@@ -598,21 +620,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1100px) {
-  .bd_grid {
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  #myImg{
-    margin-top: 20px;
-  }
-
-  .home_img {
-    width: 460px;
-    bottom: 15%;
-  }
-}
 
 @media screen and (max-width:390px) {
   .home_img{
@@ -627,3 +635,4 @@ img {
   }
   
 }
+
